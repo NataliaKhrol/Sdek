@@ -17,7 +17,6 @@ public class BaseTest {
         Configuration.baseUrl = "https://www.cdek.ru/";
         Configuration.timeout = 10000;
         Configuration.browserSize = "1920x1080";
-        Configuration.holdBrowserOpen = true;
         loginPage = new LoginPage();
         parcelPage = new ParcelPage();
     }

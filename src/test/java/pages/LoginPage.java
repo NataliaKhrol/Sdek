@@ -7,10 +7,10 @@ import static com.codeborne.selenide.Selenide.*;
 public class LoginPage {
     private static final String CITY_PATTERN = ("//button[text()='%s']");
     private static final String SIZE_PATTERN = ("//p[text()='%s']");
-    private SelenideElement loginBtn = $x("//*[@data-test='auth-login-btn']");
-    private SelenideElement okBtn = $x("//*[text()='ОК']");
-    private ElementsCollection arrows = $$x("//label[text()='Размер посылки']");
-    private SelenideElement countParcel = $x("//button[text()='Рассчитать']");
+    private final SelenideElement loginBtn = $x("//*[@data-test='auth-login-btn']");
+    private final SelenideElement okBtn = $x("//*[text()='ОК']");
+    private final ElementsCollection arrows = $$x("//label[text()='Размер посылки']");
+    private final SelenideElement countParcel = $x("//button[text()='Рассчитать']");
 
     public LoginPage openPage() {
         open("ru/");
