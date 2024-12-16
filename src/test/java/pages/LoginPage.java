@@ -10,7 +10,6 @@ public class LoginPage {
     private SelenideElement loginBtn = $x("//*[@data-test='auth-login-btn']");
     private SelenideElement okBtn = $x("//*[text()='ОК']");
     private ElementsCollection arrows = $$x("//label[text()='Размер посылки']");
-    private SelenideElement parcelSizeS = $x("//p[text()='Короб S']");
     private SelenideElement countParcel = $x("//button[text()='Рассчитать']");
 
     public LoginPage openPage() {
