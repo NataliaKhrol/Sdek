@@ -14,6 +14,6 @@ public class LoginTest extends BaseTest {
         loginPage.openPage()
                 .closeCookiesField()
                 .fillInParcelFields(fromCity, destinationCity, parcelSize);
-        assertTrue(parcelPage.checkShipmentPageOpened(), "Place shipment sign is not visible");
+        assertTrue(parcelPage.checkShipmentPageOpened(), "Перехода на страницу оформления посылки не произошло");
     }
 }
