@@ -4,7 +4,6 @@ import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-
 public class LoginTest extends BaseTest {
     private String fromCity = "Москва";
     private String destinationCity = "Санкт-Петербург";
